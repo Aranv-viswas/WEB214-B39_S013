@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frame .head h2 {
+    font-weight: 700;
+    font-size: 29.41px;
+    line-height: 45px;
+    color: #05073C;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.frame .head a {
+    color: #05073C;
+    font-weight: 400;
+    font-size: 14.3px;
+    line-height: 28.13px;
+    text-decoration: none;
+    margin-top: 21.88px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5em;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.box {
+    width: 300px;
+    border: 1px solid #E7E6E6;
+    border-radius: 12px;
+}
+
+.tourCard img {
+    width: 278px;
+    height: 198.56px;
+    border-radius: 12px;
+    margin: 11px 0 0 11px;
+    position: relative;
+}
+
+.tourCard + p {
+    font-weight: 400;
+    font-size: 12.29px;
+    line-height: 24.38px;
+    color: #717171;
+    margin-left: 42px;
+}
+
+.box h3 {
+    font-weight: 500;
+    font-size: 15.88px;
+    line-height: 24px;
+    margin-left: 21px;
+    color: #05073C;
+}
+
+.box h3 + p {
+    font-size: 12.49px;
+    font-weight: 400;
+    line-height: 24.38px;
+    color: #05073C;
+    margin-left: 101px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #E7E6E6;
+    width: 258px;
+    height: 41px;
+    margin-left: 21px;
+}
+
+.d-flex > p {
+    font-weight: 400;
+    font-size: 12.59px;
+    line-height: 24.38px;
+    color: #05073C;
+    margin-left: 21px;
+}
+
+.d-flex div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.from {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24.38px;
+    color: #05073C;
+}
+
+.num {
+    font-weight: 500;
+    font-size: 14.5px;
+    line-height: 30px;
+    color: #05073C;
+}
+
