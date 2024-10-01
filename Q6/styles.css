@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 68%;
+}
+
+#navbar {
+    position: absolute;
+    width: 1320px;
+height: 88px;
+left: 90px;
+
+}
+
+#hero {
+    position: absolute;
+top: 100px;
+left: 290px;
+}
